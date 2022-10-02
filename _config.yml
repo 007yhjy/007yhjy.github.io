@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+title                    : "Hyungjin's Workload"
+title_separator          : "|"
+subtitle                 : "Always positive win" # site tagline that appears below site title in masthead
+name                     : "Hyungjin(Ryan) Yun"
+description              : "Here is my portfolio space that shows my work."
 url                      : "https://007yhjy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
