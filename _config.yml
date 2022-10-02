@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -113,6 +113,12 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:007yhjy@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/007yhjy"
+    - label: "Linkedin"
+      icon: "fas fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/hyungjin-ryan-yun-2a067a1a4/"  
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,12 +128,6 @@ author:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/007yhjy"
-    - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/hyungjin-ryan-yun-2a067a1a4/"  
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
@@ -135,18 +135,17 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/007yhj"
+    - label: "Linkedin"
+      url: "https://www.linkedin.com/in/hyungjin-ryan-yun-2a067a1a4/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/007yhj"
-    - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/hyungjin-ryan-yun-2a067a1a4/"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url:
@@ -263,16 +262,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
