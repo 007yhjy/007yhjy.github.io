@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "Hyungjin's Workload"
 title_separator          : "|"
-subtitle                 : "Always positive win" # site tagline that appears below site title in masthead
+subtitle                 : "Data Science" # site tagline that appears below site title in masthead
 name                     : "Hyungjin(Ryan) Yun"
 description              : "Here is my portfolio space that shows my work."
 url                      : "https://007yhjy.github.io"
