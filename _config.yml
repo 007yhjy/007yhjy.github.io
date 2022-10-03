@@ -12,12 +12,12 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Hyungjin's Workload"
-title_separator          : "|"
+title_separator          : "-"
 subtitle                 : "Data Science" # site tagline that appears below site title in masthead
 name                     : "Hyungjin(Ryan) Yun"
 description              : "A space where trial and error is the foundation"
@@ -59,8 +59,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
@@ -108,11 +108,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A space where trial & error is the foundation"
   location         : "Boston, USA"
-  email            : "007yhjy@gmail.com"
+  email            :
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "mailto:007yhjy@gmail.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:007yhjy@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/007yhjy"
@@ -294,3 +294,20 @@ defaults:
       comments: true
       share: true
       related: true
+      # toc_ads: true
+      # toc_sticky: true
+      sidebar:
+        title: #카테고리
+        nav: "sidebar-contents"
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      sidebar:
+        title: #카테고리
+        nav: "sidebar-contents"
+sidebar:
+  - title: "Title"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
