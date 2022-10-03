@@ -24,8 +24,8 @@ description              : "A space where trial and error is the foundation"
 url                      : "https://007yhjy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # "007yhjy/007yhjy.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/my1.jpg"
-logo                     : "/assets/images/logo1.png" # path of logo image to display in the masthead, e.g. 
+teaser                   : # "/assets/images/my1.jpg"
+logo                     : "/assets/images/IMG_8329.JPG" # path of logo image to display in the masthead, e.g. 
 masthead_title           : "Hyungjin's blog" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
