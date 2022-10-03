@@ -6,4 +6,4 @@ author_profile: true
 taxonomy: project
 ---
 
-📈 Personal Toy Porject ⚡
+Personal Porject
