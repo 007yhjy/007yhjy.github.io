@@ -20,7 +20,7 @@ title                    : "Hyungjin's Workload"
 title_separator          : "|"
 subtitle                 : "Data Science" # site tagline that appears below site title in masthead
 name                     : "Hyungjin(Ryan) Yun"
-description              : "Here is my portfolio space that shows my work."
+description              : "A space where trial and error is the foundation"
 url                      : "https://007yhjy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
