@@ -110,7 +110,7 @@ author:
   name             : "Hyungjin(Ryan) Yun"
   avatar           : "/assets/images/my.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A space where trial & error is the foundation"
-  location         : "SBoston, USA"
+  location         : "Boston, USA"
   email            :
   links:
     - label: "Email"
