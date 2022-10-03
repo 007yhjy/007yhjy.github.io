@@ -1,5 +1,5 @@
 ---
-title: "블로그 #태그 검색"
+title: "Blog #search Tag"
 permalink: /search/
 layout: search
 author_profile: true

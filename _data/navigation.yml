@@ -1,28 +1,22 @@
 # main links
 main:
-  - title: "About me"
-    url: /about/
-  - title: "Project"
-    url: /categories/project/
-  - title: "Category"
-    url: /categories/
-  - title: "Tag"
-    url: /tags/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+   - title: "About me"
+     url: /about/
+   - title: "Project"
+     url: /categories/project/
+   - title: "Category"
+     url: /categories/
+
+  # - title: "Study"
+  #   url: /categories/study/
+  # - title: "Search"
+  #   url: /search/
   # - title: "Sitemap"
   #   url: /sitemap/
 
 sidebar-contents:
   - title: "Data Science"
     children:
-      - title: "Project"
-        url: /categories/#project
-        category: "project"
       - title: "Machine Learning"
         url: /categories/#ml
         category: "ML"
@@ -32,41 +26,44 @@ sidebar-contents:
       - title: "Paper Review"
         url: /categories/#paper
         category: "paper"
-  # - title: "Database"
-  #   children:
-  #     - title: "SQL"
-  #       url: /categories/#sql
-  #       category: "sql"
-  # - title: "Python"
-  #   children:
-  #     - title: "Basic"
-  #       url: /categories/#basic
-  #       category: "basic"
-  #     - title: "Data handling"
-  #       url: /categories/#data-handling
-  #       category: "data_handling"
-  #     - title: "Visualization"
-  #       url: /categories/#visualization
-  #       category: "visualization"
-  #     - title: "Web-related"
-  #       url: /categories/#web
-  #       category: "web"
-  #     - title: "etc."
-  #       url: /categories/#etc
-  #       category: "etc"
-  # - title: "Algorithm"
-  #   children:
-  #     - title: "Concept"
-  #       url: /categories/#concept
-  #       category: "concept"
-  #     - title: "training"
-  #       url: /categories/#training
-  #       category: "training"
-  # - title: "GIS"
-  #   children:
-  #     - title: "Spatial Analysis"
-  #       url: /categories/#spatial-analysis
-  #       category: "spatial_analysis"
-  #     - title: "QGIS"
-  #       url: /categories/#qgis
-  #       category: "qgis"
+      - title: "Competition"
+        url: /categories/#competition
+        category: "competition"
+  - title: "Python"
+    children:
+      - title: "Basic"
+        url: /categories/#basic
+        category: "basic"
+      - title: "Data handling"
+        url: /categories/#data-handling
+        category: "data_handling"
+      - title: "Visualization"
+        url: /categories/#visualization
+        category: "visualization"
+      - title: "Web-related"
+        url: /categories/#web
+        category: "web"
+      - title: "etc."
+        url: /categories/#etc
+        category: "etc"
+  - title: "Algorithm"
+    children:
+      - title: "Concept"
+        url: /categories/#concept
+        category: "concept"
+      - title: "training"
+        url: /categories/#training
+        category: "training"
+  - title: "GIS"
+    children:
+      - title: "Spatial Analysis"
+        url: /categories/#spatial-analysis
+        category: "spatial_analysis"
+      - title: "QGIS"
+        url: /categories/#qgis
+        category: "qgis"
+  - title: "Database"
+    children:
+      - title: "SQL"
+        url: /categories/#sql
+        category: "sql"
