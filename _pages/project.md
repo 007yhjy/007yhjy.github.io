@@ -1,6 +1,6 @@
 ---
-title: "category"
-layout: categories
+title: "Project Repository"
 permalink: /categories/
+layout: category
 author_profile: true
 ---
