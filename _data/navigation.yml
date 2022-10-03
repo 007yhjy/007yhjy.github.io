@@ -32,11 +32,11 @@ sidebar-contents:
       - title: "Paper Review"
         url: /categories/#paper
         category: "paper"
-  - title: "Database"
-    children:
-      - title: "SQL"
-        url: /categories/#sql
-        category: "sql"
+  # - title: "Database"
+  #   children:
+  #     - title: "SQL"
+  #       url: /categories/#sql
+  #       category: "sql"
   # - title: "Python"
   #   children:
   #     - title: "Basic"
