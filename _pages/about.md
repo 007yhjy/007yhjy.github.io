@@ -6,7 +6,7 @@ layout: single
 
   
   
-![jpg](/assets/images/IMG_8328.JPG "내사진"){: width="45%" height="45%"}  
+<!-- ![jpg](/assets/images/IMG_8328.JPG "내사진"){: width="45%" height="45%"}   -->
 
 ---
 
